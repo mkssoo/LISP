@@ -1,0 +1,6 @@
+(defun canon(a s)
+  (setq d(/ (sin (* 2 a) 9.8))
+  (if (and(> d 490) (< d 510))
+    (format t "HIT")
+  (if (or(<= d 490) (>= d 510))
+    (format t "MISS")
